@@ -37,3 +37,9 @@ module.exports = {
 // }
 
 // task()
+
+// async function posts(){
+//     console.log(await findAllPosts())
+// }
+
+// posts()
