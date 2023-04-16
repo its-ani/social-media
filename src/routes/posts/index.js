@@ -4,9 +4,6 @@ const {
     createNewPost
 } = require("../../controllers/posts")
 
-
-
-
 const route = Router()
 
 route.get('/', async (req,res)=>{
