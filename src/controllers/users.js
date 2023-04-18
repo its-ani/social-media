@@ -33,4 +33,17 @@ async function task(){
     console.log('--------------------')
 }
 task()
+
+async function task(){
+    console.log(await createAnonUser())
+    console.log('--------------------')
+    console.log(await getUserById(1))
+    console.log('--------------------')
+    console.log(await getUserById(2))
+    console.log('--------------------')
+    console.log(await getUserById(3))
+}
+
+task()
+
 */

@@ -12,7 +12,7 @@ route.get('/', async (req,res)=>{
 })
 
 route.post('/', async (req,res)=>{
-    
+    console.log(" Request Body : ", req.body)
     const {userId, title, body} = req.body
     if((!userId) || (!title) || (!body)){
         return res.status(400).send({
